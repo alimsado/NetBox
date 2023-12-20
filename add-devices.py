@@ -9,11 +9,12 @@ url = "https://10.100.16.10/api/dcim/devices/"
 
 payload = json.dumps([
   {
-    "name": "AP2",
-    "device_type": 4,
+    "name": "AP3",
+    "device_type": 19,
     "role": 8,
-    "site": 1,
-    "status": "planned"
+    "site": 3,
+    "status": "planned",
+    "primary_ip4": "10.42.1.1/32",
   }
 ])
 headers = {
